@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SeatSelectionComponent from '../../seat/SeatSelectionComponent'; // Ensure you import the SeatSelectionComponent
+import SeatSelectionComponent from '../modal/seat/SeatSelectionComponent'; // Ensure you import the SeatSelectionComponent
 
 const TheatreCard = ({ movieData }) => {
   const theatreDetails = movieData.theatredetail;

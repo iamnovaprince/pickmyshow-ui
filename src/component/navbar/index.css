@@ -20,52 +20,6 @@
   opacity: 0.;
 }
 
-.Seachbar{
-  width: 600px;
-  height: fit-content;
-  margin: 5px;
-  margin-left: 280px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-  
-input[type="text"] {
-    width: 500px;
-    height: 35px;
-    font-size: 12px;
-    line-height: 28px;
-    padding: 0 1rem;
-    padding-left: 40px;
-    border-radius: 6px;
-    outline: none;
-    background-color: #D1E9F6;
-    color: #DB6B97;
-    transition: 0.3s ease;
-}
-  
-input::placeholder {
-    color: #F2F2F2;
-    font-weight: 300;
-}
-  
-  input:focus,
-  input:hover {
-    outline: none;
-    border-color: rgba(0, 48, 73, 0.4);
-    background-color: #fff;
-    box-shadow: 0 0 0 4px rgb(0 48 73 / 10%);
-  }
-  
-  .icon {
-    width: 18px;
-    position: absolute;
-    left: 13px;
-    fill: #0887F8;
-}
-
-
 .fitler_btn{
   width: 250px;
   font-size: 12px;
