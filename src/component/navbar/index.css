@@ -1,0 +1,30 @@
+.navbar {
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    top: 0px;
+    padding: 5px 80px 8px 0px;
+    background-color: #83B4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    z-index: 2;
+}
+  
+#logo{
+  width: 100%;
+  max-width: 125px;
+  height: 42px;
+  border-radius: 4px;
+  opacity: 0.;
+}
+
+.fitler_btn{
+  width: 250px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
